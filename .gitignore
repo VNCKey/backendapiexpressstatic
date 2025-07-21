@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+bun.lockb
+
+# Salida de TypeScript
+dist/
+build/
+
+# Archivos temporales y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Archivos del sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Entornos/variables sensibles
+.env
+.env.*.local
+
+# Archivos de coverage (pruebas)
+coverage/
+.nyc_output/
+
+# Otros archivos temporales
+*.tsbuildinfo
+*.tmp
+*.temp
+
+# Archivos generados por tests
+jest-*
+test-results/
+
+# Para monorepos y workspaces
+packages/*/node_modules/
