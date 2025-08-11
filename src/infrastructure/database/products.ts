@@ -1,4 +1,4 @@
-import { ProductItf } from "application/interfaces/product.interface";
+import { ProductItf } from "../../application/interfaces/product.interface";
 import { categoryData } from "./category";
 
 const products: ProductItf[] = [

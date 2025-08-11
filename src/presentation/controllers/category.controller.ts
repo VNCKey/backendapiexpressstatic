@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { categoryData } from "infrastructure/database/category";
+import { categoryData } from "../../infrastructure/database/category";
 
 export class CategoryController {
   constructor() {}

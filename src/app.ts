@@ -1,5 +1,5 @@
-import { AppRouter } from "routes";
 import { envs } from "./config/envs";
+import { AppRouter } from "./routes";
 import { Server } from "./server";
 
 (() => {

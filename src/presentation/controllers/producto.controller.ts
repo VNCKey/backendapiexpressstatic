@@ -1,6 +1,6 @@
-import { products } from "infrastructure/database/products";
-import { ProductItf } from "application/interfaces/product.interface";
 import { Request, Response } from "express";
+import { products } from "../../infrastructure/database/products";
+import { ProductItf } from "../../application/interfaces/product.interface";
 
 export class ProductController {
   //Dependency Inyections

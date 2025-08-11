@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { CategoryRoutes } from "presentation/routes/category.routes";
-import { ProductRoutes } from "presentation/routes/product.routes";
+import { ProductRoutes } from "./presentation/routes/product.routes";
+import { CategoryRoutes } from "./presentation/routes/category.routes";
 
 export class AppRouter {
   static get router(): Router {

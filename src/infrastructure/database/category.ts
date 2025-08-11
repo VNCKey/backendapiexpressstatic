@@ -1,7 +1,7 @@
 import {
   CategoryItf,
   GenderCategoryEnum,
-} from "application/interfaces/category.interface";
+} from "../../application/interfaces/category.interface";
 
 const categoryData: CategoryItf[] = [
   {
