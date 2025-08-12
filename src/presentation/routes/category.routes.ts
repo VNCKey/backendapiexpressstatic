@@ -10,7 +10,11 @@ export class CategoryRoutes {
 
     router.get("/", categoryController.getCategory);
     router.get("/:id", categoryController.getCategoryById);
-    // router.get("/:id", categoryController.getCategory);
+
+    router.post("/", categoryController.postCategory);
+
+    router.put("/:id", categoryController.putCategory);
+    router.delete("/:id", categoryController.deleteCategory);
 
     return router;
   }
